@@ -10,7 +10,7 @@ describe(List) do
   it('can add a task') do
     test_list = List.new('School Supplies')
     test_task = Task.new('Get pencils')
-    test_list.tasks(test_task)
+    test_list.add_task(test_task)
     expect(test_list.tasks).to eq [test_task]
   end
   it('can add priority') do

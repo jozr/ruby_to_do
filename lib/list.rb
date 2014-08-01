@@ -14,7 +14,7 @@ class List
   end
 
   def sort_tasks
-    @tasks.sort
+    @tasks.sort_by { |task| task.description }
   end
 
   def tasks
@@ -22,3 +22,6 @@ class List
   end
 
 end
+
+
+# @name = "1 clean up my room"

@@ -72,9 +72,6 @@ require 'pry'
         list.sort_tasks.each do |task|
           puts task.description
         end
-        # list.tasks.each do |task|
-        #   puts task.description
-        # end
       end
     end
     puts "\n"
